@@ -18,8 +18,9 @@
             <button
                     class="btn btn-success"
                     @click="buyStock"
-                    
+          
                     >Buy</button>
+                    <!-- :disabled="quantity <=0 || !Number.isInteger(quantity)" -->
           </div>
         </div>
       </div>
